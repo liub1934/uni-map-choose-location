@@ -1,0 +1,38 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "签到"
+			}
+		},
+		{
+			"path": "pages/select/select",
+			"style": {
+				"navigationBarTitleText": "位置微调"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-cell": "/wxcomponents/vant/cell/index",
+			"van-cell-group": "/wxcomponents/vant/cell-group/index",
+			"van-search": "/wxcomponents/vant/search/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-loading": "/wxcomponents/vant/loading/index",
+			"van-info": "/wxcomponents/vant/info/index"
+		}
+	}
+}
