@@ -28,3 +28,7 @@
 ![image](https://image.liubing.me/2020/03/14/ac6cbfb9247a3.png)
 
 ![image](https://image.liubing.me/2020/03/14/d88b49c34579e.png)
+
+## 其他
+
+uniapp微信小程序中具体使用vant可参考：[https://liubing.me/uniapp-use-vant-weapp.html](https://liubing.me/uniapp-use-vant-weapp.html)
