@@ -3,6 +3,7 @@
     <view class="top-search">
       <van-search :value="keyword"
         shape="round"
+				focus
         placeholder="关键词搜索"
         @change="changeEvent"
         @search="handleSearch">

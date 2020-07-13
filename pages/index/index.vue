@@ -3,7 +3,7 @@
     <view class="location">
       <van-cell class="field-cell"
         required
-        title-width="150rpx"
+        title-width="70px"
         title="当前定位：">
         <view v-if="formData.signAddress"
           class="location">

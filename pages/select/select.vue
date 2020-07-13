@@ -1,19 +1,19 @@
 <template>
   <view class="select-location">
+		<!-- 顶部搜索框 -->
+		<view class="top-search">
+		  <van-search :value="keyword"
+		    background="rgba(255, 255, 255, 0)"
+		    shape="round"
+		    readonly
+		    placeholder="关键词搜索"
+		    @click.native="goSearch">
+		  </van-search>
+		</view>
     <map id="map"
       :latitude="latitude"
       :longitude="longitude"
       @regionchange="changeEvent">
-      <!-- 顶部搜索框 -->
-      <cover-view class="top-search">
-        <van-search :value="keyword"
-          background="rgba(255, 255, 255, 0)"
-          shape="round"
-          readonly
-          placeholder="关键词搜索"
-          @click.native="goSearch">
-        </van-search>
-      </cover-view>
       <!-- 定位标志 -->
       <cover-image class="location-icon"
         src="/static/images/location.png">
@@ -164,6 +164,7 @@ export default {
     top: 0;
     left: 0;
     right: 0;
+		z-index: 1;
     .van-search__content {
       background: $uni-bg-color;
     }
